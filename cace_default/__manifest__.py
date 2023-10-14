@@ -36,7 +36,8 @@
         'standard_depends_ce',
 
         # utilitarios adicionales
-        'backend_theme_v11',
+        #'backend_theme_v11',
+        
 
         # requerido por la restriccion de menuitems
         #'mail', 'calendar', 'contacts', 'mrp', 'sale', 'purchase', 'stock',
@@ -61,13 +62,14 @@
     'port': '8069',
 
     'git-repos': [
-        'https://github.com/pabarrientos/cl-tronic.git',
+        'https://github.com/pabarrientos/cl-cace.git',
         'https://github.com/jobiols/odoo-addons.git',
-        'https://github.com/jobiols/rafi16jan-backend-theme.git',
+        #'https://github.com/jobiols/rafi16jan-backend-theme.git',
+        'https://github.com/Openworx/backend_theme.git',
         'https://github.com/jobiols/odoo-jeo-ce.git',
-	'https://github.com/soroushCoder/theme_soroush_first.git',
-	'https://github.com/odoo/design-themes.git',
-	'https://github.com/muk-it/muk_website.git',
+	    'https://github.com/soroushCoder/theme_soroush_first.git',
+	    'https://github.com/odoo/design-themes.git',
+	    'https://github.com/muk-it/muk_website.git',
 
         'https://github.com/ingadhoc/odoo-argentina.git',
         'https://github.com/ingadhoc/argentina-sale.git',
@@ -84,7 +86,7 @@
         'https://github.com/ingadhoc/partner.git',
         'https://github.com/ingadhoc/account-invoicing.git',
         'https://github.com/ingadhoc/stock.git',
-	'https://github.com/ingadhoc/purchase.git',
+	    'https://github.com/ingadhoc/purchase.git',
 
         'https://github.com/oca/partner-contact.git',
         'https://github.com/oca/web.git',
@@ -94,11 +96,14 @@
         'https://github.com/oca/server-ux.git',
         'https://github.com/oca/project.git',
         'https://github.com/oca/queue.git',
-	'https://github.com/oca/sale-workflow.git',
-	'https://github.com/OCA/e-commerce.git',
-	'https://github.com/OCA/website.git website-oca',
+	    'https://github.com/oca/sale-workflow.git',
+	    'https://github.com/OCA/e-commerce.git',
+	    'https://github.com/OCA/website.git website-oca',
         'https://github.com/OCA/website-cms.git',
-	'https://github.com/OCA/product-attribute.git',
+	    'https://github.com/OCA/product-attribute.git',
+
+        #OpenHRMS
+        'https://github.com/CybroOdoo/OpenHRMS.git'
     ],
 
     'docker-images': [
