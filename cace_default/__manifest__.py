@@ -128,7 +128,7 @@
     ],
 
     'docker-images': [
-        'odoo pabarrientos/odoo11:0.1',
+        'odoo pabarrientos/odoo11:0.1.1',
         'postgres postgres:11.1-alpine',
         'nginx nginx',
         'aeroo adhoc/aeroo-docs'
