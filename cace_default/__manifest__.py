@@ -27,13 +27,13 @@
     'author': 'CACE Software',
     'depends': [
         # basic applications
-        'sale_management',
-        'account_invoicing',
-        'purchase',
-        'stock',
+        #'sale_management',
+        #'account_invoicing',
+        #'purchase',
+        #'stock',
 
         # minimum modules for argentinian localizacion + utilities + fixes
-        'standard_depends_ce',
+        #'standard_depends_ce',
 
         # utilitarios adicionales
         #'backend_theme_v11',
@@ -53,6 +53,9 @@
     'images': [],
 
     'config': [
+        'workers = 2',
+        'max_cron_threads = 1',
+        'server_wide_modules = base,web',
     ],
 
     'env-ver': '2',
@@ -63,11 +66,11 @@
 
     'git-repos': [
         'https://github.com/pabarrientos/cl-cace.git',
-        'https://github.com/jobiols/odoo-addons.git',
+        #'https://github.com/jobiols/odoo-addons.git',
         #'https://github.com/jobiols/rafi16jan-backend-theme.git',
         'https://github.com/Openworx/backend_theme.git',
-        'https://github.com/jobiols/odoo-jeo-ce.git',
-	    'https://github.com/soroushCoder/theme_soroush_first.git',
+        #'https://github.com/jobiols/odoo-jeo-ce.git',
+	    #'https://github.com/soroushCoder/theme_soroush_first.git',
 	    'https://github.com/odoo/design-themes.git',
 	    'https://github.com/muk-it/muk_website.git',
 
@@ -129,7 +132,7 @@
 
     'docker-images': [
         'odoo pabarrientos/odoo11:0.1.1',
-        'postgres postgres:11.1-alpine',
+        'postgres postgres:10.1-alpine',
         'nginx nginx',
         'aeroo adhoc/aeroo-docs'
     ]
